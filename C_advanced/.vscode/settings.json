@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "string_functions.h": "c",
+        "dlfcn.h": "c",
+        "signal.h": "c",
+        "features.h": "c",
+        "signum.h": "c",
+        "sig_atomic_t.h": "c",
+        "stdlib.h": "c",
+        "unistd.h": "c",
+        "types.h": "c"
+    }
+}
