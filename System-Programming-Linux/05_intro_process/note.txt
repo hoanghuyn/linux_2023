@@ -1,0 +1,25 @@
+cat /proc/sys/kernel/pid_max : see the maximum PID number
+
+cat /proc/sys/kernel/threads-max : see the maximum number of threads
+
+Summary
+
+1. ps -ef  :  can be used to list all running process.
+
+2. Each process has a unique ID called as Process ID (PID in short)
+
+3. Every Process has a parent Process (PPID)
+
+4.  PID - '0' is swapper process
+
+5.  PID - '1' is INIT process
+
+6. Each Process has its own memory space, i.e
+
+    a. Text/code segment
+
+    b. Data segment(Global and Static variables)
+
+    c.  Stack segment(local variables)
+
+    d.  Heap segment(Dynamic allocation)
