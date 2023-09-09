@@ -1,0 +1,3 @@
+BT7. Sử dụng SIGCHLD để ngăn ngừa việc hình thành zombie process.
+
+Idea: đăng ký signal_handler cho SIGCHLD, trong handler gọi hàm waitpid với tham số WNOHANG để xóa zombie process.

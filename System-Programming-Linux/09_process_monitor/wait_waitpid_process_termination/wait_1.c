@@ -15,9 +15,9 @@ int main()
 
     if(cpid == 0){
         printf("\nchild executing first its pid = (%d)\n",getpid());
-        sleep(15);
+        sleep(5);
         printf("Child pid = %d\n", getpid()); 
-        exit(1);
+        exit(0);
     } 
     else{    
         printf("\n Parent executing before wait()\n");
@@ -45,6 +45,4 @@ Process termination status (int) 16 bit number
     unused       |     X   termination signal
                        |
                        |-----> core dump flag
-
-
 #endif

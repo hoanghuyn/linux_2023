@@ -3,7 +3,7 @@
 CC := gcc
 
 all:
-	$(CC) -o exam main.c
+	$(CC) -o main main.c
 
 clean:
-	rm -rf exam
+	rm -rf main
