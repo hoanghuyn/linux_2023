@@ -1,0 +1,12 @@
+ASM1
+Write a program in 'C' on Linux environment, to perform the below. 
+(a) Display the output string on screen without using 'printf' 
+or any other library function call. Hint: use system calls.
+
+ASM2
+1. Lets assume a file named author.txt contains below text 
+"This course is all about Linux system programming. The instructor of this course is Rohan" 
+2. Now write a program in 'C' to change only the Name present in file from 'Rohan' to 'Mohan' 
+hint make use of lseek()
+
+ASM3
